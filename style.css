@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(#FC5E55 ,#FA4083);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.container{
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    background-color: rgb(126, 227, 126);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    background-color: rgb(165, 98, 98);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2{
+    background-color: rgb(144, 56, 56);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3{
+    background-color: rgb(177, 29, 29);
+    min-height: 300px;
+    width: 30%;
+}
+
+.herobox1 {
+    flex: 2;
+}
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+}
