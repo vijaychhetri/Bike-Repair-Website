@@ -26,6 +26,7 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
 }
 
 main{
@@ -118,4 +119,10 @@ p {
 a.myButton {
     display: inline-block;
     margin-top: 20px;
+}
+
+.navButton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
 }
